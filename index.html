@@ -19,20 +19,19 @@
          </p>
       </header>
       <section class="section">
-        <form class="form" action="/" method="GET">
+        <form class="form" action="#" method="GET">
           <div class="div-name">
             <label for="First"></label>
-          <input class="input" id="First" type="text" autofocus placeholder="First Name" required>
+          <input class="input div-input" id="First" type="text" name="First" autofocus placeholder="First Name" required pattern="^[A-Z][a-z]{1,32}$">
           <label for="Last"></label>
-          <input class="input" id="Last" type="text" placeholder="Last Name" required></div>
+          <input class="input div-input" id="Last" type="text" name="Last" placeholder="Last Name" required pattern="^[A-Z][a-z]{1,32}$"></div>
           <label for="Email"></label>
-          <input class="input" id="Email" type="email" placeholder="Email" required>
+          <input class="input" id="Email" type="email" name="Email" placeholder="Email" required pattern="^[A-Za-z0-9]{1,32}@[a-z]{1,9}\.[a-z]{1,4}$">
           <label for="Password"></label>
-          <input class="input" id="Password" type="password" placeholder="Password" required>
+          <input class="input" id="Password" type="password" name="Password" placeholder="Password" required>
           <label for="Confirm"></label>
-          <input class="input" id="Confirm" type="password" placeholder="Confirm Password" required>
-          <label for=""><input type="checkbox" required> I accept the Terms of Use & Privacy Policy.</label>
-          
+          <input class="input" id="Confirm" type="password" name="Confirm" placeholder="Confirm Password" required>
+          <label for="checkbox"><input id="checkbox" type="checkbox" name="isAccept" required> I accept the Terms of Use & Privacy Policy.</label>
           <button class="btn" type="submit">Register Now</button>
           
           

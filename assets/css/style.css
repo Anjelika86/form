@@ -8,6 +8,7 @@
   max-width: 450px;
   padding: 20px;
   background: rgb(241, 238, 238);
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -22,18 +23,22 @@
   padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
 }
 .heading::before,
 .heading::after {
-  display: block;
   content: "";
   flex-grow: 1;
   height: 1px;
   background-color: gray;
-
   
-  
+}
+.heading::before {
+  margin-right: 10px;
+}
+.heading::after {
+  margin-left: 10px;
 }
 
 .form {
@@ -45,6 +50,9 @@
   display: flex;
   
   
+}
+.div-input {
+  width: 45%;
 }
 .input , .btn {
   margin: 10px;
