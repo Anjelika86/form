@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+
+    <article  class="article">
+      <header class="header">
+        <h1 class="heading">Register</h1>
+        <p class="text-header">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
+          facere?
+         </p>
+      </header>
+      <section class="section">
+        <form class="form" action="/" method="GET">
+          <div class="div-name">
+            <label for="First"></label>
+          <input class="input" id="First" type="text" autofocus placeholder="First Name" required>
+          <label for="Last"></label>
+          <input class="input" id="Last" type="text" placeholder="Last Name" required></div>
+          <label for="Email"></label>
+          <input class="input" id="Email" type="email" placeholder="Email" required>
+          <label for="Password"></label>
+          <input class="input" id="Password" type="password" placeholder="Password" required>
+          <label for="Confirm"></label>
+          <input class="input" id="Confirm" type="password" placeholder="Confirm Password" required>
+          <label for=""><input type="checkbox" required> I accept the Terms of Use & Privacy Policy.</label>
+          
+          <button class="btn" type="submit">Register Now</button>
+          
+          
+        </form>
+
+      </section>
+      
+    </article>
+  </body>
 </html>
