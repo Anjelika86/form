@@ -7,7 +7,7 @@
   font-family: sans-serif;
   max-width: 450px;
   padding: 20px;
-  background: rgb(241, 238, 238);
+  background: #F2F3F7;
   margin: 0 auto;
 }
 .header {
@@ -15,7 +15,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
+  color: #6A6C6B;
  
 }
 .heading {
@@ -26,6 +27,10 @@
   justify-content: space-between;
 
 }
+.text-header {
+  padding: 5px;
+}
+
 .heading::before,
 .heading::after {
   content: "";
@@ -45,21 +50,27 @@
   display: flex;
   flex-direction: column;
 }
-.div-name {
+.container {
   display: flex;
   
 }
 .div-input {
-  width: 45%;
-}
-.input , .btn {
-  margin: 10px;
-  padding: 10px 20px;
+  width: 45%; 
+} 
+
+.input, 
+.btn {
+  margin: 10px; 
+  padding: 10px;
 }
 
 .btn {
+  padding: 10px 20px;
   color: white;
   background: green;
   font-weight: bold;
-
+}
+.label-checkbox {
+  display: flex;
+  align-items: center;
 }
