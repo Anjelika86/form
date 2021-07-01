@@ -9,6 +9,9 @@
   padding: 20px;
   background: #F2F3F7;
   margin: 0 auto;
+  margin-top: 50px;
+  
+  
 }
 .header {
   display: flex;
@@ -18,6 +21,7 @@
   padding: 20px 0;
   color: #6A6C6B;
  
+ 
 }
 .heading {
   font-size: 40px;
@@ -25,8 +29,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+ 
 }
+
 .text-header {
   padding: 5px;
 }
@@ -69,7 +74,11 @@
   color: white;
   background: green;
   font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
+
 .label-checkbox {
   display: flex;
   align-items: center;
