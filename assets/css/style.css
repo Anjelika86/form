@@ -10,19 +10,10 @@
   background: #F2F3F7;
   margin: 0 auto;
   margin-top: 50px;
-  
+  opacity: 0.6;
   
 }
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 20px 0;
-  color: #6A6C6B;
- 
- 
-}
+
 .heading {
   font-size: 40px;
   padding: 10px;
@@ -31,10 +22,20 @@
   justify-content: space-between;
  
 }
+.wrapper-register{
+  max-width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+
+} 
 
 .text-header {
-  padding: 5px;
+  padding: 10px 5px; 
+  text-align: center;
 }
+  
 
 .heading::before,
 .heading::after {
@@ -79,7 +80,13 @@
   text-overflow: ellipsis;
 }
 
-.label-checkbox {
+.conteiner-checbox {
   display: flex;
   align-items: center;
+ 
+}
+
+.link {
+  text-decoration: none;
+  color: green;
 }

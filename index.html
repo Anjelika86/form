@@ -10,17 +10,14 @@
   </head>
   <body>
     <article class="article">
-      <header class="header">
-        <h2 class="heading">Register</h2>
+        <h2 class="heading"><span class="wrapper-register">Register</span></h2>
         <p class="text-header">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
           facere?
         </p>
-      </header>
-      <section class="section">
+        
         <form class="form" action="#" method="GET">
           <div class="container">
-            <label for="First"></label>
             <input
               class="input div-input"
               id="First"
@@ -31,7 +28,6 @@
               required
               pattern="^[A-Z][a-z]{1,32}$"
             />
-            <label for="Last"></label>
             <input
               class="input div-input"
               id="Last"
@@ -42,7 +38,6 @@
               pattern="^[A-Z][a-z]{1,32}$"
             />
           </div>
-          <label for="Email"></label>
           <input
             class="input"
             id="Email"
@@ -51,7 +46,6 @@
             placeholder="Email"
             required
             pattern="^[A-Za-z0-9]{1,32}@[a-z]{1,9}\.[a-z]{1,4}$"/>
-          <label for="Password"></label>
           <input
             class="input"
             id="Password"
@@ -59,7 +53,6 @@
             name="Password"
             placeholder="Password"
             required/>
-          <label for="Confirm"></label>
           <input
             class="input"
             id="Confirm"
@@ -67,20 +60,21 @@
             name="Confirm"
             placeholder="Confirm Password"
             required/>
-          <label class="label-checkbox" for="checkbox">
-            <input
+            <div class="conteiner-checbox"> 
+              <input
               class="input checkbox"
               id="checkbox"
               type="checkbox"
               name="checkbox"
               required/>
-              I accept the Terms of Use & Privacy Policy.
-          </label>
+              <span>
+                I accept the <a class="link" href="#">Terms of Use</a> & <a class="link" href="#">Privacy Policy</a>.
+              </span>
+            </div>
           <button class="btn" type="submit">Register Now</button>
         </form>
 
-      </section>
-
+      
     </article>
   </body>
 </html>
